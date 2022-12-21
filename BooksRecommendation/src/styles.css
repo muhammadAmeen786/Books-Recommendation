@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.list-item{
+  list-style: none;
+ 
+
+}
+.eachbook{
+  border: 3px solid red;
+  height: 30px;
+  text-align: center;
+
+  margin: 1rem;
+  padding: 2px;
+  list-style-type: none;
+  
+}
+.eachbook:hover{
+  cursor: pointer;
+  background-color: yellowgreen;
+}
