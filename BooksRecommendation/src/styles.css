@@ -2,22 +2,29 @@
   font-family: sans-serif;
   text-align: center;
 }
-.list-item{
+.list-item {
   list-style: none;
- 
-
+  border: 2px solid blue;
+  padding: 3px;
+  margin-top: 3px;
 }
-.eachbook{
+.book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.eachbook {
   border: 3px solid red;
+  width: 100px;
+
   height: 30px;
   text-align: center;
-
   margin: 1rem;
   padding: 2px;
   list-style-type: none;
-  
 }
-.eachbook:hover{
+
+.eachbook:hover {
   cursor: pointer;
   background-color: yellowgreen;
 }
